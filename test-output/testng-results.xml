@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3981" started-at="2023-06-15T22:19:40 CDT" finished-at="2023-06-15T22:19:44 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3981" started-at="2023-06-15T22:19:40 CDT" finished-at="2023-06-15T22:19:44 CDT">
+      <class name="test.DashboardTestPage">
+        <test-method status="PASS" signature="initalizeBrowser()[pri:0, instance:test.DashboardTestPage@646d64ab]" name="initalizeBrowser" is-config="true" duration-ms="3302" started-at="2023-06-15T22:19:40 CDT" finished-at="2023-06-15T22:19:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeBrowser -->
+        <test-method status="PASS" signature="addCategoryAndValidate()[pri:0, instance:test.DashboardTestPage@646d64ab]" name="addCategoryAndValidate" duration-ms="639" started-at="2023-06-15T22:19:43 CDT" finished-at="2023-06-15T22:19:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategoryAndValidate -->
+      </class> <!-- test.DashboardTestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
