@@ -33,7 +33,25 @@ public class DashboardTestPage {
 	
 	
 	
-	//	Test 2: Validate a user is not able to add a duplicated category. If it does then the followi
+	//	Test 2: Validate a user is not able to add a duplicated category.
+	
+	@Test
+	public void userShouldNotBeAbleToAddDuplicateCategory() {
+		String constantCategory = "MagentusTheCreamy";
+		dashboardPage.insertIntoCategoryFieldConstantValue(constantCategory);
+		dashboardPage.clickonAddCategoryButton();
+		dashboardPage.validateIfCategoryAlreadyExists(constantCategory);
+		
+		
+	}
+	
+	// Test 3: Validate the month drop down has all the months (jan, feb, mar ...) in the Due Date dropdown section.
+	@Test
+	public void validateMonthDropDown() {
+		dashboardPage.validateMonths();
+	}
+	
+	
 	
 	
 }
